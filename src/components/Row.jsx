@@ -32,7 +32,7 @@ const Row = ({title,fetchURL,rowID}) => {
                 <Movie key={id} item={item}/>
             )}
         </div>
-        <MdChevronRight onClick={slideRight}size={40} className='bg-white right-0 rounded-full absolute opacity-50 hover:opacity-100 cursor-pointer z-10 hidden group-hover:block'/>
+        <MdChevronRight onClick={slideRight} size={40} className='bg-white right-0 rounded-full absolute opacity-50 hover:opacity-100 cursor-pointer z-10 hidden group-hover:block'/>
         </div>
     </>
   )
